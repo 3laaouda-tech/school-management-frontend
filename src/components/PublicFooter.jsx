@@ -26,6 +26,11 @@ export default function PublicFooter() {
               </Link>
             </li>
             <li>
+              <Link to="/how-it-works" className="hover:text-gold transition-colors">
+                How it works
+              </Link>
+            </li>
+            <li>
               <Link to="/contact" className="hover:text-gold transition-colors">
                 Contact
               </Link>

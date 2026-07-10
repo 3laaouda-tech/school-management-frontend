@@ -28,6 +28,9 @@ export default function PublicNavbar() {
           <NavLink to="/about" className={navLinkClass}>
             About
           </NavLink>
+          <NavLink to="/how-it-works" className={navLinkClass}>
+            How it works
+          </NavLink>
           <NavLink to="/contact" className={navLinkClass}>
             Contact
           </NavLink>

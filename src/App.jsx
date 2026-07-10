@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/public/Home";
 import About from "./pages/public/About";
 import Contact from "./pages/public/Contact";
+import HowItWorks from "./pages/public/HowItWorks";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
@@ -13,6 +14,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/how-it-works" element={<HowItWorks />} />
       <Route path="/login" element={<Login />} />
       <Route
         path="/dashboard"
